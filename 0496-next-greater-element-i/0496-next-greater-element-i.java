@@ -15,7 +15,7 @@ class Solution {
                 }
             }
             ans[i]=-1;
-            for(int j=idx; j<n2; j++){
+            for(int j=idx+1; j<n2; j++){
                 if(nums1[i]<nums2[j]){
                     ans[i] = nums2[j];
                     break;
